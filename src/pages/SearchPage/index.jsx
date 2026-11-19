@@ -1,8 +1,10 @@
 import React from 'react'
-
+import { SearchWidget } from '../../components';
 
 export const SearchPage = () => {
     return (
-        <div>Search page</div>
+        <SearchWidget />
     )
 }
+
+export default SearchPage;

@@ -1,8 +1,12 @@
-import React from 'react'
+import { useEffect } from 'react'
+import { ShowGallery } from '../../components'
+
+export default function ShowsPage() {
 
 
-export const ShowsPage = () => {
+
+
     return (
-        <div>Shows page</div>
+        <ShowGallery />
     )
 }
